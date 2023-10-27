@@ -19,7 +19,7 @@ const Table: FC<TableProps> = ({captions, items}) => {
             {items?.length &&
                 <tbody>
                 {items.map(item =>
-                    <tr key={item.id}>
+                    <tr key={item.id} className={cl[item.status]}>
                         <td>{item.company}</td>
                         <td>{item.city}</td>
                         <td>{item.position}</td>

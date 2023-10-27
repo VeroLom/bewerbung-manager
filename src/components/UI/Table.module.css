@@ -6,7 +6,7 @@
 .table th,
 .table td {
     padding: 6px 8px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
 }
 
 .table th {
@@ -17,3 +17,9 @@
 .table tbody tr:hover td {
     background: #eaf0f0;
 }
+
+.table tr.STATUS_NEW td { background: #fff }
+.table tr.STATUS_SENT td { background: #d9d9d9 }
+.table tr.STATUS_RESULT_POSITIVE td { background: #b6d7a8 }
+.table tr.STATUS_RESULT_NEGATIVE td { background: #f4cccc }
+.table tr.STATUS_RESULT_POSITION_CLOSED td { background: #fce5cd }
