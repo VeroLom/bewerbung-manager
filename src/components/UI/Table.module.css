@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 6px 8px;
+    border: 1px solid lightgray;
+}
+
+.table th {
+    text-align: left;
+    background: #dae0e0;
+}
+
+.table tbody tr:hover td {
+    background: #eaf0f0;
+}
